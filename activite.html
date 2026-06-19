@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nos Activités – Upgrade Facilities</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Sora:wght@600;700;800&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ══ NAVBAR ══ -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">
+        <img src="img/uf.png" alt="Upgrade Facilities" />
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="activite.html" class="active">Activité</a></li>
+        <li><a href="contact.html">Contacts</a></li>
+      </ul>
+      <a href="contact.html" class="btn-nav">Nous contacter</a>
+      <button id="hamburger" aria-label="Menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div id="mobileMenu">
+      <a href="index.html" class="mobile-link">Accueil</a>
+      <a href="activite.html" class="mobile-link active">Activité</a>
+      <a href="contact.html" class="mobile-link">Contacts</a>
+      <a href="contact.html" class="cta-mobile">Nous contacter</a>
+    </div>
+  </nav>
+
+  <!-- ══ PAGE HERO ══ -->
+  <header class="page-hero">
+    <div class="page-hero-overlay"></div>
+    <div class="page-hero-content fade-in">
+      <p class="eyebrow">Expertise &amp; Savoir-faire</p>
+      <h1>Nos Activités</h1>
+      <p>Des solutions techniques complètes au service de vos espaces professionnels</p>
+    </div>
+  </header>
+
+  <!-- ══ CARROUSEL RÉALISATIONS & AVIS ══ (EN PREMIER) -->
+  <section class="realisations-section" id="realisations" aria-label="Nos réalisations clients">
+    <div class="container">
+      <div class="section-header fade-in">
+        <p class="eyebrow">Notre portfolio</p>
+        <h2>Réalisations &amp; Témoignages</h2>
+        <p class="section-sub">Des résultats concrets, mesurables, validés par nos clients.</p>
+      </div>
+    </div>
+
+    <!-- Slider -->
+    <div class="realisation-slider-outer fade-in">
+      <div class="realisation-viewport">
+        <div class="realisation-track" id="realisationTrack">
+
+          <!-- SLIDE 1 — Biltoki -->
+          <article class="realisation-card">
+            <figure class="realisation-img">
+              <img src="img/biltoki_service.jpg" alt="Salle de restauration Biltoki entretenue par Upgrade Facilities" loading="lazy" />
+              <span class="realisation-badge realisation-badge--clean">Nettoyage Pro</span>
+            </figure>
+            <div class="realisation-body">
+              <div class="realisation-client">
+                <div class="realisation-client-logo">
+                  <img src="img/logo_biltoki.jpg" alt="Logo Biltoki" />
+                </div>
+                <div>
+                  <p class="realisation-client-name">Biltoki</p>
+                  <p class="realisation-client-type">Restauration collective</p>
+                </div>
+              </div>
+              <blockquote class="realisation-quote">
+                <p>« Une équipe sérieuse, discrète, qui s'adapte parfaitement à nos horaires de service. La propreté est irréprochable 7 jours sur 7. »</p>
+                <footer>— Responsable des opérations, Biltoki</footer>
+              </blockquote>
+              <ul class="realisation-kpis">
+                <li><strong>2 500 m²</strong><span>Surface traitée</span></li>
+                <li><strong>7j/7</strong><span>Fréquence</span></li>
+                <li><strong>Contrat</strong><span>Annuel reconduit</span></li>
+              </ul>
+            </div>
+          </article>
+
+          <!-- SLIDE 2 — Asia Mart -->
+          <article class="realisation-card">
+            <figure class="realisation-img">
+              <img src="img/asia_mart_sol.jpg" alt="Rayons supermarché Asia Mart avec sols brillants entretenus par Upgrade Facilities" loading="lazy" />
+              <span class="realisation-badge realisation-badge--clean">Nettoyage Pro</span>
+            </figure>
+            <div class="realisation-body">
+              <div class="realisation-client">
+                <div class="realisation-client-logo">
+                  <img src="img/logo_asia_mart.jpg" alt="Logo Asia Mart" />
+                </div>
+                <div>
+                  <p class="realisation-client-name">Asia Mart</p>
+                  <p class="realisation-client-type">Grande distribution</p>
+                </div>
+              </div>
+              <blockquote class="realisation-quote">
+                <p>« Nos sols gardent un éclat impeccable malgré un flux de clientèle très dense. Upgrade Facilities répond toujours présent. »</p>
+                <footer>— Directeur de site, Asia Mart</footer>
+              </blockquote>
+              <ul class="realisation-kpis">
+                <li><strong>Haute brillance</strong><span>Traitement sols</span></li>
+                <li><strong>Dense</strong><span>Flux quotidien</span></li>
+                <li><strong>Réactif</strong><span>Sous 24h</span></li>
+              </ul>
+            </div>
+          </article>
+
+          <!-- SLIDE 3 — Rémi & Jozefa -->
+          <article class="realisation-card">
+            <figure class="realisation-img">
+              <img src="img/remi_josefa_service.jpg" alt="Boutique artisanale Rémi et Jozefa entretenue par Upgrade Facilities" loading="lazy" />
+              <span class="realisation-badge realisation-badge--clean">Nettoyage Pro</span>
+            </figure>
+            <div class="realisation-body">
+              <div class="realisation-client">
+                <div class="realisation-client-logo">
+                  <img src="img/logo_remi_et_jozefa.jpg" alt="Logo Rémi & Jozefa" />
+                </div>
+                <div>
+                  <p class="realisation-client-name">Rémi &amp; Jozefa</p>
+                  <p class="realisation-client-type">Commerce de bouche</p>
+                </div>
+              </div>
+              <blockquote class="realisation-quote">
+                <p>« Discrétion totale, respect de nos espaces et de notre clientèle. Exactement ce qu'on attendait d'un prestataire de nettoyage. »</p>
+                <footer>— Gérante, Rémi &amp; Jozefa</footer>
+              </blockquote>
+              <ul class="realisation-kpis">
+                <li><strong>Discret</strong><span>Hors heures d'ouverture</span></li>
+                <li><strong>Bio certifié</strong><span>Produits alimentaires</span></li>
+                <li><strong>Fidèle</strong><span>Long terme</span></li>
+              </ul>
+            </div>
+          </article>
+
+          <!-- SLIDE 4 — BNP Paribas -->
+          <article class="realisation-card">
+            <figure class="realisation-img">
+              <img src="img/interieur_bnp_parisbas.jpg" alt="Bureaux BNP Paribas rénovés par Upgrade Facilities — plateau de 450 m²" loading="lazy" />
+              <span class="realisation-badge realisation-badge--travaux">Travaux</span>
+            </figure>
+            <div class="realisation-body">
+              <div class="realisation-client">
+                <div class="realisation-client-logo">
+                  <img src="img/logo_bnp_paribas.jpg" alt="Logo BNP Paribas" />
+                </div>
+                <div>
+                  <p class="realisation-client-name">BNP Paribas</p>
+                  <p class="realisation-client-type">Secteur bancaire</p>
+                </div>
+              </div>
+              <blockquote class="realisation-quote">
+                <p>« Chantier livré dans les délais, sans aucune surprise. La qualité des finitions répond parfaitement aux exigences de notre groupe. »</p>
+                <footer>— Responsable Facilities, BNP Paribas</footer>
+              </blockquote>
+              <ul class="realisation-kpis">
+                <li><strong>450 m²</strong><span>Surface rénovée</span></li>
+                <li><strong>0 retard</strong><span>Livraison conforme</span></li>
+                <li><strong>Multi-corps</strong><span>Sol + Murs + Plâtrerie</span></li>
+              </ul>
+            </div>
+          </article>
+
+          <!-- SLIDE 5 — Foncia -->
+          <article class="realisation-card">
+            <figure class="realisation-img">
+              <img src="img/foncia_service.jpg" alt="Hall de résidence Foncia entretenu par Upgrade Facilities" loading="lazy" />
+              <span class="realisation-badge realisation-badge--travaux">Travaux</span>
+            </figure>
+            <div class="realisation-body">
+              <div class="realisation-client">
+                <div class="realisation-client-logo">
+                  <img src="img/logo_foncia.png" alt="Logo Foncia" />
+                </div>
+                <div>
+                  <p class="realisation-client-name">Foncia</p>
+                  <p class="realisation-client-type">Gestion immobilière</p>
+                </div>
+              </div>
+              <blockquote class="realisation-quote">
+                <p>« Upgrade Facilities gère 14 de nos résidences avec une réactivité exemplaire. Le lien de confiance est établi depuis le premier chantier. »</p>
+                <footer>— Syndic de copropriété, Foncia</footer>
+              </blockquote>
+              <ul class="realisation-kpis">
+                <li><strong>14</strong><span>Résidences gérées</span></li>
+                <li><strong>24h</strong><span>Réactivité garantie</span></li>
+                <li><strong>Contrat</strong><span>Multi-sites actif</span></li>
+              </ul>
+            </div>
+          </article>
+
+          <!-- SLIDE 6 — Logicor / Bleecker -->
+          <article class="realisation-card">
+            <figure class="realisation-img">
+              <img src="img/logicor_services.jpg" alt="Plateau tertiaire Logicor Bleecker aménagé par Upgrade Facilities — 3000 m²" loading="lazy" />
+              <span class="realisation-badge realisation-badge--travaux">Travaux</span>
+            </figure>
+            <div class="realisation-body">
+              <div class="realisation-client">
+                <div class="realisation-client-logo realisation-client-logo--duo">
+                  <img src="img/logo_logicor.jpg" alt="Logo Logicor" />
+                  <img src="img/logo_bleecker.png" alt="Logo Bleecker" />
+                </div>
+                <div>
+                  <p class="realisation-client-name">Logicor &amp; Bleecker</p>
+                  <p class="realisation-client-type">Immobilier tertiaire</p>
+                </div>
+              </div>
+              <blockquote class="realisation-quote">
+                <p>« Un interlocuteur unique pour l'ensemble du plateau. Maîtrise du planning, qualité constante sur 3 000 m² — un partenaire fiable. »</p>
+                <footer>— Asset Manager, Logicor</footer>
+              </blockquote>
+              <ul class="realisation-kpis">
+                <li><strong>3 000 m²</strong><span>Plateaux tertiaires</span></li>
+                <li><strong>1 contact</strong><span>Interlocuteur unique</span></li>
+                <li><strong>Livré</strong><span>Dans le délai prévu</span></li>
+              </ul>
+            </div>
+          </article>
+
+        </div><!-- /realisation-track -->
+      </div><!-- /realisation-viewport -->
+
+      <button class="slider-arrow slider-arrow--prev" id="sliderPrev" aria-label="Précédent">
+        <svg viewBox="0 0 24 24" fill="none"><path d="M15 18l-6-6 6-6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </button>
+      <button class="slider-arrow slider-arrow--next" id="sliderNext" aria-label="Suivant">
+        <svg viewBox="0 0 24 24" fill="none"><path d="M9 18l6-6-6-6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </button>
+    </div>
+
+    <div class="slider-dots" id="sliderDots" role="tablist" aria-label="Navigation du carrousel"></div>
+  </section>
+
+  <!-- ══ ACTIVITÉS PRINCIPALES ══ -->
+  <section class="section activities" id="activites">
+    <div class="container">
+      <div class="section-header fade-in">
+        <p class="eyebrow">Ce que nous faisons</p>
+        <h2>Nos domaines d'expertise</h2>
+        <p class="section-sub">Quatre pôles de compétence, une seule équipe : Upgrade Facilities prend en charge votre projet de bout en bout, avec un interlocuteur unique du devis à la réception du chantier.</p>
+      </div>
+
+      <!-- Activité 1 — Revêtements muraux -->
+      <div class="activity-block fade-in">
+        <div class="activity-img">
+          <img src="img/mur.jpg" alt="Revêtements muraux professionnels réalisés par Upgrade Facilities" loading="lazy" />
+        </div>
+        <div class="activity-content">
+          <span class="activity-tag">Finitions intérieures</span>
+          <h3>Revêtements muraux</h3>
+          <p>Papier peint, peinture et finitions décoratives adaptées aux environnements professionnels. Nous garantissons des rendus soignés, durables et conformes aux cahiers des charges les plus exigeants.</p>
+          <div class="activity-value">
+            <p><strong>Ce que vous y gagnez :</strong> un cadre de travail valorisant pour vos équipes et vos visiteurs, des finitions qui résistent au passage intensif, et un chantier mené sans interruption de votre activité grâce à des interventions hors horaires si besoin.</p>
+          </div>
+          <div class="activity-benefits">
+            <span class="benefit-badge"><svg viewBox="0 0 24 24" fill="none"><path d="M5 12l5 5L19 7" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>Matériaux certifiés</span>
+            <span class="benefit-badge"><svg viewBox="0 0 24 24" fill="none"><path d="M5 12l5 5L19 7" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>Devis sous 48h</span>
+            <span class="benefit-badge"><svg viewBox="0 0 24 24" fill="none"><path d="M5 12l5 5L19 7" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>Intervention hors horaires possible</span>
+          </div>
+          <ul class="activity-list">
+            <li>Peinture professionnelle intérieure et extérieure</li>
+            <li>Pose de papier peint et revêtements textiles</li>
+            <li>Finitions décoratives et enduits</li>
+            <li>Ravalement de façade</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Activité 2 — Revêtements de sol -->
+      <div class="activity-block activity-block--reverse fade-in">
+        <div class="activity-img">
+          <img src="img/sol.jpg" alt="Pose de revêtements de sol professionnels par Upgrade Facilities" loading="lazy" />
+        </div>
+        <div class="activity-content">
+          <span class="activity-tag">Sols techniques</span>
+          <h3>Revêtements de sol</h3>
+          <p>Parquet, moquette, vinyle et solutions techniques répondant aux contraintes de trafic intense. Nos équipes sélectionnent les matériaux adaptés à chaque usage pour allier esthétique et durabilité.</p>
+          <div class="activity-value">
+            <p><strong>Ce que vous y gagnez :</strong> un sol adapté à la fréquentation réelle de vos locaux (bureaux, accueil, circulation), une pose soignée qui limite l'usure prématurée, et un conseil objectif sur le rapport coût / durée de vie de chaque matériau.</p>
+          </div>
+          <div class="activity-benefits">
+            <span class="benefit-badge"><svg viewBox="0 0 24 24" fill="none"><path d="M5 12l5 5L19 7" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>Conseil matériaux personnalisé</span>
+            <span class="benefit-badge"><svg viewBox="0 0 24 24" fill="none"><path d="M5 12l5 5L19 7" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>Pose tous types de trafic</span>
+            <span class="benefit-badge"><svg viewBox="0 0 24 24" fill="none"><path d="M5 12l5 5L19 7" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>Finitions garanties</span>
+          </div>
+          <ul class="activity-list">
+            <li>Parquet massif et stratifié</li>
+            <li>Moquette et revêtements textiles</li>
+            <li>Vinyle, LVT et dalles plastiques</li>
+            <li>Chapes et nivelage de sol</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Activité 3 — Installation de chantier -->
+      <div class="activity-block fade-in">
+        <div class="activity-img">
+          <img src="img/chantier.jpg" alt="Installation et organisation de chantier professionnel par Upgrade Facilities" loading="lazy" />
+        </div>
+        <div class="activity-content">
+          <span class="activity-tag">Gestion de chantier</span>
+          <h3>Installation de chantier</h3>
+          <p>Mise en place d'espaces sécurisés, fonctionnels et conformes aux normes en vigueur. Upgrade Facilities prend en charge la coordination et l'organisation opérationnelle de vos chantiers.</p>
+          <div class="activity-value">
+            <p><strong>Ce que vous y gagnez :</strong> un site protégé dès le premier jour (sols, mobilier, accès), une coordination unique entre les différents corps de métier, et un planning tenu pour limiter l'impact sur votre exploitation.</p>
+          </div>
+          <div class="activity-benefits">
+            <span class="benefit-badge"><svg viewBox="0 0 24 24" fill="none"><path d="M5 12l5 5L19 7" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>Coordination multi-corps d'état</span>
+            <span class="benefit-badge"><svg viewBox="0 0 24 24" fill="none"><path d="M5 12l5 5L19 7" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>Protection systématique des lieux</span>
+            <span class="benefit-badge"><svg viewBox="0 0 24 24" fill="none"><path d="M5 12l5 5L19 7" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>Planning respecté</span>
+          </div>
+          <ul class="activity-list">
+            <li>Cloisonnement et protections de chantier</li>
+            <li>Menuiserie intérieure et extérieure</li>
+            <li>Plâtrerie et faux-plafonds</li>
+            <li>Coordination multi-corps d'état</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Activité 4 — Nettoyage professionnel -->
+      <div class="activity-block activity-block--reverse fade-in">
+        <div class="activity-img">
+          <img src="img/agent_nettoyage.jpg" alt="Agent de nettoyage professionnel Upgrade Facilities en intervention dans des bureaux modernes" loading="lazy" />
+        </div>
+        <div class="activity-content">
+          <span class="activity-tag">Propreté &amp; Hygiène</span>
+          <h3>Nettoyage professionnel</h3>
+          <p>Entretien courant et périodique des locaux, immeubles, bureaux et zones sensibles. Nos équipes interviennent avec du matériel professionnel et des produits certifiés pour assurer un environnement sain.</p>
+          <div class="activity-value">
+            <p><strong>Ce que vous y gagnez :</strong> des locaux impeccables au quotidien sans mobiliser vos équipes internes, une prestation adaptée à votre rythme (ponctuel, récurrent ou contrat annuel), et un point de contact unique pour ajuster la prestation à tout moment.</p>
+          </div>
+          <div class="activity-benefits">
+            <span class="benefit-badge"><svg viewBox="0 0 24 24" fill="none"><path d="M5 12l5 5L19 7" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>Produits certifiés</span>
+            <span class="benefit-badge"><svg viewBox="0 0 24 24" fill="none"><path d="M5 12l5 5L19 7" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>Contrat sur mesure</span>
+            <span class="benefit-badge"><svg viewBox="0 0 24 24" fill="none"><path d="M5 12l5 5L19 7" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>Interlocuteur dédié</span>
+          </div>
+          <ul class="activity-list">
+            <li>Nettoyage courant de bureaux et locaux</li>
+            <li>Entretien des parties communes d'immeubles</li>
+            <li>Remise en état après travaux</li>
+            <li>Prestations périodiques et sur appel</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ CTA BANDE ══ -->
+  <section class="cta-band fade-in">
+    <div class="container">
+      <h2>Un projet ? Parlons-en.</h2>
+      <p>Décrivez-nous votre besoin une seule fois — notre équipe revient vers vous avec une proposition adaptée sous 48 h.</p>
+      <a href="contact.html" class="btn-primary">Demander un devis</a>
+    </div>
+  </section>
+
+  <!-- ══ FOOTER ══ -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <img src="img/uf.png" alt="Upgrade Facilities" class="footer-logo" />
+        <p>Entreprise familiale spécialisée dans tous les corps d'état du bâtiment.</p>
+      </div>
+      <div class="footer-links">
+        <h5>Navigation</h5>
+        <ul>
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="activite.html">Activité</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-links">
+        <h5>Légal</h5>
+        <ul>
+          <li><a href="mentions-legales.html">Mentions légales</a></li>
+          <li><a href="politique-confidentialite.html">Politique de confidentialité</a></li>
+        </ul>
+      </div>
+      <div class="footer-contact">
+        <h5>Contact</h5>
+        <p>7 Rue Henri Becquerel<br>92500 Rueil-Malmaison</p>
+        <p><a href="tel:0783521627">07 83 52 16 27</a><br>
+           <a href="tel:0685217498">06 85 21 74 98</a></p>
+        <p><a href="mailto:contact@upgrade-facilities.com">contact@upgrade-facilities.com</a></p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© Upgrade Facilities – Tous droits réservés</p>
+      <p><a href="mentions-legales.html">Mentions légales</a> · <a href="politique-confidentialite.html">Confidentialité</a></p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script>
+  /* ── Carrousel Réalisations — navigation manuelle uniquement ── */
+  (function() {
+    var track   = document.getElementById('realisationTrack');
+    var dotsBox = document.getElementById('sliderDots');
+    var btnPrev = document.getElementById('sliderPrev');
+    var btnNext = document.getElementById('sliderNext');
+    if (!track) return;
+
+    var cards   = Array.from(track.querySelectorAll('.realisation-card'));
+    var total   = cards.length;
+    var current = 0;
+
+    /* Build dots */
+    cards.forEach(function(_, i) {
+      var dot = document.createElement('button');
+      dot.setAttribute('role', 'tab');
+      dot.setAttribute('aria-label', 'Réalisation ' + (i + 1));
+      dot.className = 'slider-dot' + (i === 0 ? ' active' : '');
+      dot.dataset.idx = i;
+      dot.addEventListener('click', function() { goTo(+this.dataset.idx); });
+      dotsBox.appendChild(dot);
+    });
+
+    function goTo(idx) {
+      current = ((idx % total) + total) % total;
+      /* Déplacement centré : chaque card = 100% viewport width */
+      track.style.transform = 'translateX(-' + (current * 100) + '%)';
+      dotsBox.querySelectorAll('.slider-dot').forEach(function(d, i) {
+        d.classList.toggle('active', i === current);
+        d.setAttribute('aria-selected', String(i === current));
+      });
+    }
+
+    if (btnPrev) btnPrev.addEventListener('click', function() { goTo(current - 1); });
+    if (btnNext) btnNext.addEventListener('click', function() { goTo(current + 1); });
+
+    /* Touch swipe support */
+    var tx = 0;
+    track.addEventListener('touchstart', function(e) { tx = e.touches[0].clientX; }, { passive: true });
+    track.addEventListener('touchend', function(e) {
+      var dx = e.changedTouches[0].clientX - tx;
+      if (Math.abs(dx) > 40) { goTo(current + (dx < 0 ? 1 : -1)); }
+    }, { passive: true });
+  })();
+  </script>
+</body>
+</html>
